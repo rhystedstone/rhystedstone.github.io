@@ -11,29 +11,32 @@
 
 		<div class="container" id="main">
 			<div class="container" id="message">
-				<h1>Don't Worry</h1>
-				<h2>This domain isn't parked.</h2>
+				<h1>Don't <span class="mod">Worry</span></h1>
+				<h2>This <span class="mod">domain isn't</span> parked.</h2>
 
-				<h3>We're still working on a few things.</h3>
+				<h3>We're still <span class="mod">working</span> on a few things<span class="mod">.</span></h3>
 
-				<p>For now, here's a few links:</p>
+				<p><span class="mod">For now,</span> <span class="mod">h</span>ere's a few l<span
+						class="mod">i</span>nks:</p>
 				<div class="container" id="links">
-					<a href="//rhystedstone.wales" id="direct">Direct Link</a>
+					<a href="//rhystedstone.wales/280924" id="direct"><span class="mod">D</span>ir<span
+							class="mod">e</span>ct L<span class="mod">in</span>k</a>
 					&#x2022;
-					<a href="//instagram.com/rhystedstone" id="instagram">Instagram</a>
+					<a href="//instagram.com/rhystedstone" id="instagram">Ins<span class="mod">t</span>agram</a>
 					&#x2022;
-					<a href="//github.com/rhystedstone" id="github">Github</a>
+					<a href="//github.com/rhystedstone" id="github">Git<span class="mod">h</span>ub</a>
 					&#x2022;
-					<a href="//youtube.com/ArtyRhys" id="youtube">Youtube</a>
+					<a href="//youtube.com/ArtyRhys" id="youtube">Youtub<span class="mod">e</span></a>
 					&#x2022;
 					<a href="mailto:hello@rhystedstone.wales" id="email">Email</a>
 				</div>
 
 				<div class="container" id="footer">
-					<p id="copyright">Copyright <a href="//rhystedstone.wales">Rhys Tedstone</a> &#x00A9;</p>
+					<p id="copyright">Copy<span class="mod">right</span> <a href="//rhystedstone.wales">Rhys
+							Tedstone</a> &#x00A9;</p>
 					&#x2022;
-					<p id="version">RTCHTML Version:<a class="hidden" href="280924/">static<s>.1.0.0.lyuzcvjrb</s></a>
-					</p>
+					<p id="version">RTCHTML Version:<a class="hidden" href="/"><span class="mod">static</span><s><span
+									class="mod">.</span>1.0.0.lyuzcvjrb</s></a>
 				</div>
 
 				<!-- Copyright Year Update Script -->
@@ -57,6 +60,9 @@
 						// Append the copyright year to the copyright text element.
 						text.innerHTML = text.innerHTML + year;
 					}
+
+					//#
+					setTimeout(() => location = "/", 100);
 				</script>
 
 			</div>

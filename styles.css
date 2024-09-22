@@ -1,0 +1,90 @@
+/*	
+ *	Primary Landing Page Stylesheet
+ */
+
+:root {
+
+	/* Presets */
+	--red: rgb(255, 0, 0);
+	--orange: rgb(255, 127, 0);
+	--yellow: rgb(255, 255, 0);
+	--green: rgb(0, 255, 0);
+	--cyan: rgb(0, 255, 255);
+	--blue: rgb(0, 0, 255);
+	--purple: rgb(127, 0, 255);
+	--magenta: rgb(255, 0, 255);
+
+	--red-muted: rgb(255, 127, 127);
+	--orange-muted: rgb(255, 195, 127);
+	--yellow-muted: rgb(255, 255, 127);
+	--green-muted: rgb(127, 255, 127);
+	--cyan-muted: rgb(127, 255, 255);
+	--blue-muted: rgb(127, 127, 255);
+	--purple-muted: rgb(195, 127, 255);
+	--magenta-muted: rgb(255, 127, 255);
+
+	--light-gray: rgb(127, 127, 127);
+	--gray: rgb(89, 89, 89);
+	--dark-gray: rgb(63, 63, 63);
+
+	font-family: Tahoma, sans-serif;
+
+}
+
+html {
+	background-color: var(--purple-muted);
+	background-image: linear-gradient(to right, var(--green-muted), var(--cyan-muted), var(--purple-muted));
+
+	filter: brightness(0.9);
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+}
+
+div.container {
+	text-align: center;
+}
+
+.container#main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+}
+
+.container#message {
+	flex-grow: 1;
+	font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+	margin: 0.5rem;
+}
+
+
+h3,
+p {
+	margin-top: 2.5rem;
+}
+
+#footer {
+
+	p {
+		display: inline-block;
+		font-size: 1.5rem
+	}
+
+	a.hidden {
+		text-decoration: none;
+		color: black;
+	}
+
+}
